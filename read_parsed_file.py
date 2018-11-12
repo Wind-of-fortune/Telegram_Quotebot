@@ -1,5 +1,4 @@
 import io
-import random
 
 f = io.open(r'quotes_filtering.txt', 'r',  encoding="utf-8")
 
