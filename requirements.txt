@@ -6,6 +6,7 @@ cffi==1.11.5
 chardet==3.0.4
 cryptography==2.3.1
 future==0.17.1
+gunicorn==19.9.0
 idna==2.7
 pycparser==2.19
 PySocks==1.6.8
@@ -14,4 +15,3 @@ requests==2.20.0
 six==1.11.0
 stem==1.7.0
 urllib3==1.24.1
-
