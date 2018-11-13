@@ -1,1 +1,1 @@
-web: gunicorn telegram_main:app
+web: gunicorn telegram_main:app --workers=4
