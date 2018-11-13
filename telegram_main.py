@@ -11,6 +11,7 @@ import secret
 
 
 bot = telegram.Bot(token=secret.token)
+bot.setWebhook()
 updater = Updater(token=secret.token, request_kwargs={'read_timeout': 20, 'connect_timeout': 20}, workers=4)
 dispatcher = updater.dispatcher
 
