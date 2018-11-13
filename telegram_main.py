@@ -4,7 +4,6 @@ import time
 
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from telegram.ext.dispatcher import run_async
 
 from read_parsed_file import quotes, authors
 import parsing_user_data_slow_but_full
@@ -52,7 +51,6 @@ def start(bot, update):
                          'Попробуйте сами!!!'
                     )
 
-@run_async
 def quote(bot, update):
     def find_star(searh_data):
         searh_number = searh_data.split('*')
